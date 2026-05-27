@@ -1,0 +1,77 @@
+{
+  "timezone": "Asia/Shanghai",
+  "lookback_days": 2,
+  "max_items_per_feed": 5,
+  "max_chars_per_item": 18000,
+  "feeds": [
+    {
+      "name": "One Useful Thing",
+      "url": "https://www.oneusefulthing.org/feed",
+      "themes": [
+        "AI",
+        "AI-adoption",
+        "work-practice"
+      ]
+    },
+    {
+      "name": "Scaling Biotech",
+      "url": "https://scalingbiotech.substack.com/feed",
+      "themes": [
+        "AI4Bio",
+        "biotech",
+        "data-bottlenecks",
+        "clinical"
+      ]
+    },
+    {
+      "name": "Physiologically Speaking",
+      "url": "https://www.physiologicallyspeaking.com/feed",
+      "themes": [
+        "health",
+        "exercise-science",
+        "training",
+        "physiology"
+      ]
+    },
+    {
+      "name": "ChinaTalk",
+      "url": "https://www.chinatalk.media/feed",
+      "themes": [
+        "US-China",
+        "tech-policy",
+        "biotech",
+        "geopolitics"
+      ]
+    },
+    {
+      "name": "Ahead of AI",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "themes": [
+        "AI",
+        "ML",
+        "LLM-architecture",
+        "papers"
+      ]
+    },
+    {
+      "name": "Decoding Science",
+      "url": "https://decodingscience.substack.com/feed",
+      "themes": [
+        "AI4S",
+        "AI4Bio",
+        "scientific-discovery",
+        "biology"
+      ]
+    },
+    {
+      "name": "Citrini Research",
+      "url": "https://www.citriniresearch.com/feed",
+      "themes": [
+        "VC",
+        "macro",
+        "semiconductors",
+        "AI"
+      ]
+    }
+  ]
+}

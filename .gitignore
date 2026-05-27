@@ -1,0 +1,66 @@
+# Runtime data and generated artifacts
+data/**
+!data/
+!data/.gitkeep
+output/**
+!output/
+!output/.gitkeep
+logs/
+cloudflare-dist/
+
+# Private integrations kept out of the public v0.1 tree
+apps/
+cloudflare/
+templates/
+99_workspace/
+config/lark_base.json
+config/domain-weights.yaml
+config/eval-prompt.md
+config/model_policy.json
+config/sources.yaml
+docs/morningstar-*.md
+docs/newsletter-digest-strategy.md
+scripts/backfill_*.py
+scripts/build_source_database.py
+scripts/dual_model_evaluator.py
+scripts/import_manus_fetch_json.py
+scripts/model_clients.py
+scripts/nightly_fetch_to_lark.py
+scripts/publish_morningstar.sh
+scripts/render_morningstar_*.py
+scripts/rescore_feishu_articles.py
+scripts/run_daily.sh
+scripts/run_manifest.py
+scripts/secondary_fetch_assorted_links.py
+scripts/serve_morningstar.py
+scripts/source_health.py
+scripts/summarize_high_score_articles.py
+scripts/sync_lark*.py
+scripts/upload_morningstar_worker_kv.py
+tests/test_dual_model_evaluator.py
+tests/test_run_manifest.py
+tests/test_secondary_fetch_integration.py
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# Python
+*.pyc
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / deployment tooling
+node_modules/
+.wrangler/
+
+# macOS / editor noise
+.DS_Store
+*.swp

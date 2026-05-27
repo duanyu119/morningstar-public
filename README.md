@@ -64,8 +64,8 @@ This public version does not include private databases, Feishu/Lark tables, Clou
 ## Quick Start / 快速开始
 
 ```bash
-git clone https://github.com/duanyu119/news-digest.git
-cd news-digest
+git clone https://github.com/duanyu119/morningstar-public.git
+cd morningstar-public
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt

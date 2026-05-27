@@ -107,7 +107,7 @@ def fetch_url(url: str, timeout: int = 30) -> bytes:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "MorningStar news-digest/0.1",
+            "User-Agent": "MorningStar-public/0.1",
             "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
         },
     )
@@ -119,7 +119,7 @@ def fetch_article_text(url: str, max_chars: int, timeout: int = 25) -> tuple[str
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "MorningStar news-digest/0.1 (+article extraction)",
+            "User-Agent": "MorningStar-public/0.1 (+article extraction)",
             "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.7",
         },
     )
